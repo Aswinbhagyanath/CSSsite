@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  text-align: center;
+  /*centers everything inside the element that doesn't have a width specified*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+h1 {
+  font-size: 4rem; /*(or 64px or 4em )16px = 100% = 1em.They adjust the size according to the screen size. pixel is static. it doesnt adjust. But % and em are inherited values. means they build over the values set in their parent element. So if we use 'rem' instead, this problem can be avoided.*/
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  margin: 50px auto 0;/*if margin or padding has two values, first apply to top and bottom , second apply to left and right, if they have three values, first apply to top, second to left and right and thrid to bottom, one value-all sides, 4 values-top, left, bottom, right*/
+  /*the top and bottom margins can be set to 0 and the left and right margins to 'auto'
+                        so it will be between the elements above and below it but centred from the left and right sides.*/
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  }
+  p{
+    color: #40514E;
+  }
+  .intro{
+    margin: 20px auto;
+    width: 400px;
+  }
+.pro {
+  text-decoration: underline;
+}
+.profile{
+  padding: 30px 0 0 0;
+}
+.skill-row
+{
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+.code-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.executive{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.top_container {
+  background-color: #ddf3f5;
+  padding: 100px;
+}
+.middle-container{
+background-color: #ffffff;
+;
+}
+
+.bottom-container {
+  padding: 30px;
+  background-color: #66BFBF;
+
+}
+a{
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+.top-cloud {
+  position: absolute;
+  left: 19rem;
+  bottom: 16rem;
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  top: 3rem;
+  right: 19rem;
+
+}
+hr{
+  width: 10%;
+  height: 2px;
+  border-width: 6px;
+  border-bottom: 0;
+  border-style: dotted;
+  border-color: #d3dbff;
+  }
+  .button{
+    background: linear-gradient(#bbe1fa, #3282b8);
+    /*box-shadow: 1px 1px 2px 0 #000000;*/
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    /*text-shadow: 1px 1px 1px #000000;*/
+    color: #EAF6F6;
+  }
+  .button:hover{
+    background: linear-gradient(#bbe1fa, #66BFBF);
+  /*  box-shadow: 1px 1px 1px 0 #000000;*/
+    margin: 20px;
+    border: solid #337FED 1px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #84a9ac;
+    color: #EAF6F6;
+  }
+  .getintouch{
+    width: 400px;
+    margin: 20px auto;
+  }
+.footer-link{
+  font-size: 1rem;
+  display: inline-block;
+  width: 100px;
+  color: #11999E;
+  }
+.copyright{
+  font-size: 0.75rem;
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-link:hover{
+  text-decoration : underline;
+  color: #ffffff
+}
